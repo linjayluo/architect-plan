@@ -9,9 +9,10 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>design-mode</module>
-        <module>multi-thread</module>
-        <module>jvm-core</module>
+        <module>part1-multi-thread</module>
+        <module>part2-design-mode</module>
+        <module>part3-jvm-core</module>
+        <module>part4-bytecode-tech</module>
     </modules>
     <dependencies>
         <dependency>
@@ -38,5 +39,8 @@
         </dependency>
     </dependencies>
 
-
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <jdk.version>1.8</jdk.version>
+    </properties>
 </project>
