@@ -13,6 +13,7 @@
         <module>part2-design-mode</module>
         <module>part3-jvm-core</module>
         <module>part4-bytecode-tech</module>
+        <module>part5-hotswap</module>
     </modules>
     <dependencies>
         <dependency>

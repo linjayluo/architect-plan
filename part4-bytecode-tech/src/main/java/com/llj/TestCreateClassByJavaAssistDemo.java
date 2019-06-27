@@ -11,6 +11,7 @@ public class TestCreateClassByJavaAssistDemo{
 
     public static void main(String[] args) throws CannotCompileException, NotFoundException, IOException {
         ClassPool pool = ClassPool.getDefault();
+
         CtClass userClass = pool.makeClass("com.llj.User");
         CtField nameField = CtField.make("    private String name;", userClass);
 
