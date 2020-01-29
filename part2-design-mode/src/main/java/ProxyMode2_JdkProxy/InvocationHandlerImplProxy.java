@@ -14,7 +14,7 @@ import java.lang.reflect.Proxy;
  */
 public class InvocationHandlerImplProxy implements InvocationHandler {
 
-    private Object target;// 这其实业务实现类对象，用来调用具体的业务方法
+    private Object target;// 业务实现类对象，用来调用具体的业务方法
 
     // 通过构造函数传入目标对象
     public InvocationHandlerImplProxy(Object target) {
@@ -31,7 +31,7 @@ public class InvocationHandlerImplProxy implements InvocationHandler {
 
     public static void main(String[] args) throws NoSuchMethodException, SecurityException, InstantiationException,
             IllegalAccessException, IllegalArgumentException, InvocationTargetException {
-        // 被代理对象
+        //被代理对象
         IUserDao userDao = new UserDaoImpl();
         //创建代理类 -- 开始
         InvocationHandlerImplProxy invocationHandlerImpl = new InvocationHandlerImplProxy(userDao);

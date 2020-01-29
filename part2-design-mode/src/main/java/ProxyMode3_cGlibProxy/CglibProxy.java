@@ -1,5 +1,4 @@
 package ProxyMode3_cGlibProxy;
-
 import ProxyMode1_StaticProxy.IUserDao;
 import ProxyMode1_StaticProxy.UserDaoImpl;
 import net.sf.cglib.proxy.Enhancer;
