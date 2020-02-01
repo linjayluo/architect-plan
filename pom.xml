@@ -4,19 +4,20 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.llj</groupId>
+    <groupId>com.llj.cloud</groupId>
     <artifactId>architect-plan</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <modules>
         <module>part1-multi-thread</module>
         <module>part2-design-mode</module>
         <module>part3-jvm-core</module>
         <module>part4-bytecode-tech</module>
         <module>part5-hotswap</module>
-        <module>part6_rpc</module>
-        <module>part7_java8_stream</module>
-        <module>part8-AOP</module>
+        <module>part6-java8-stream</module>
+        <module>part8-0-aop</module>
+        <module>part8-1-aop-transaction</module>
+        <module>part8-2-aop-custom-annotation</module>
     </modules>
     <dependencies>
         <dependency>
